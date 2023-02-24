@@ -1,0 +1,6 @@
+\contentsline {chapter}{\numberline {1}Sachin Tendulkar}{3}{}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{}%
+\contentsline {section}{\numberline {1.2}More Info}{4}{}%
+\contentsline {subsection}{\numberline {1.2.1}Pics}{4}{}%
+\contentsline {chapter}{\numberline {2}Mathemathics}{7}{}%
+\contentsline {chapter}{\numberline {3}Introduction to C}{9}{}%

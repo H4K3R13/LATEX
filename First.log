@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.16)  24 FEB 2023 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.16)  24 FEB 2023 11:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,45 +212,60 @@ e
 ))
 \c@lstlisting=\count288
 
-Chapter 1.
 [1
 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./First.toc)
+\tf@toc=\write3
+\openout3 = `First.toc'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Sachin-01.jpg, id=8, 587.19376pt x 457.71pt>
+ [1
+
+]
+(./First.lof)
+\tf@lof=\write4
+\openout4 = `First.lof'.
+
+ [2
+
+]
+Chapter 1.
+[3
+
+]
+<Sachin-01.jpg, id=20, 587.19376pt x 457.71pt>
 File: Sachin-01.jpg Graphic file (type jpg)
 <use Sachin-01.jpg>
-Package pdftex.def Info: Sachin-01.jpg  used on input line 67.
+Package pdftex.def Info: Sachin-01.jpg  used on input line 72.
 (pdftex.def)             Requested size: 293.59616pt x 228.85445pt.
-<Sachin-02.jpg, id=9, 1027.84pt x 268.00125pt>
+<Sachin-02.jpg, id=21, 1027.84pt x 268.00125pt>
 File: Sachin-02.jpg Graphic file (type jpg)
 <use Sachin-02.jpg>
-Package pdftex.def Info: Sachin-02.jpg  used on input line 75.
-(pdftex.def)             Requested size: 513.91875pt x 134.00029pt.
+Package pdftex.def Info: Sachin-02.jpg  used on input line 80.
+(pdftex.def)             Requested size: 411.12872pt x 107.1986pt.
 
-Overfull \hbox (168.91875pt too wide) in paragraph at lines 75--77
+Overfull \hbox (66.12872pt too wide) in paragraph at lines 80--82
  [][] 
  []
 
-[2] [3 <./Sachin-01.jpg> <./Sachin-02.jpg>]
+[4] [5 <./Sachin-01.jpg> <./Sachin-02.jpg>] [6]
 Chapter 2.
-[4
+[7
 
-] [5]
+] [8]
 Chapter 3.
-[6
+[9
 
-] [7] (./First.aux)
+] [10] (./First.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4294 strings out of 480247
- 60659 string characters out of 5896150
+ 4332 strings out of 480247
+ 61090 string characters out of 5896150
  551529 words of memory out of 5000000
- 22233 multiletter control sequences out of 15000+600000
- 472210 words of font info for 39 fonts, out of 8000000 for 9000
+ 22257 multiletter control sequences out of 15000+600000
+ 477364 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,8n,62p,1667b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nasc/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600p
@@ -261,14 +276,15 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-tt8.pfb>
-Output written on First.pdf (7 pages, 311277 bytes).
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on First.pdf (11 pages, 336858 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
