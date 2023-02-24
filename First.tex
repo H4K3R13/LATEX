@@ -2,6 +2,18 @@
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+	upquote=true,
+	basicstyle=\ttfamily\footnotesize,
+	language=C,
+	keywordstyle=\color{magenta},
+	showstringspaces=false,
+	tabsize=2,
+	backgroundcolor=\color{blue!15},
+}
+
 \begin{document}
 Sachin Ramesh Tendulkar (born 24th April 1973) is a former Indian international cricketer and a former captain of the Indian national team, regarded as one of the greatest batsman of all time. He is the highest run scorer of all time in International cricket. Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years. He is the only player to have scored one hundred international centuries, the first batsman to score a double century in a ODI, the holder of the record for the most number of runs in both Test and ODI, and the only player to complete more than 30,000 runs in international cricket. He is colloquially known as Little Master or Master Blaster, and often referred to as the God of Cricket by Indian cricket followers. In 2001, Sachin Tendulkar became the first batsman to complete 10,000 ODI runs in his 259 innings. In 2002, halfway through his career, Wisden Cricketers' Almanack ranked him the second greatest Test batsman of all time, behind Don Bradman, and the second greatest ODI batsman of all time, behind Viv Richards. Later in his career, Tendulkar was a part of the Indian team that won the 2011 World Cup, his first win in six World Cup appearances for India. He had previously been named Player of the Tournament at the 2003 edition of the tournament, held in South Africa. In 2013, he was the only Indian cricketer included in an all-time Test World XI named to mark the 150th anniversary of Wisden Cricketers' Almanack. 
 
@@ -125,5 +137,52 @@ Where  $a$ is coefficent of $x^2$ and $c$ is a constant
 	\sqrt{\frac{z}{y}}
 	\sqrt[n]{1+x+x^2+x^3+\ldots}
 \end{equation}
+
+\begin{equation}
+	\sum_{i=1}^{10} t_i
+\end{equation}
+
+\begin{equation}
+	\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
+\end{equation}
+
+Roots of a quadratic quation are
+\begin{equation}
+	\frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\end{equation}
+	
+\begin{lstlisting}[caption={Program to check odd or even}]
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("Enter a number: ");
+	scanf("%d", &a);
+	if(a%2 == 0)
+	{
+		printf("%d is an even number", a);
+	}
+	else
+	{
+		printf("%d is an odd number", a);
+	}
+}
+\end{lstlisting}
+
+
+Tendulkar was born at Nirmal Nursing Home in Dadar, Bombay on 24 April 1973 to a Maharashtrian Rajapur Saraswat Brahmin family. His father, Ramesh Tendulkar, was a well-known Marathi novelist \& poet and his mother, Rajni, worked in the insurance industry. Ramesh named Tendulkar after his favourite music director, Sachin Dev Burman. Tendulkar has three elder siblings: two half-brothers Nitin and Ajit, and a half-sister Savita. They were Ramesh's children by his first wife, who died after the birth of her third child.
+
+Tendulkar spent his formative years in the Sahitya Sahawas Cooperative Housing Society in Bandra (East). As a young boy, Tendulkar was considered a bully, and often picked up fights with new children in his school. He also showed an interest in tennis, idolising John McEnroe. To help curb his mischievous and bullying tendencies, Ajit introduced the young Sachin to cricket in 1984. He introduced him to Ramakant Achrekar, a famous cricket coach and a club cricketer of repute, at Shivaji Park, Dadar. In the first meeting, the young Sachin did not play his best. Ajit told Achrekar that he was feeling self-conscious due to the coach observing him, and was not displaying his natural game. Ajit requested the coach to give him another chance at playing, but watch while hiding behind a tree. This time, Sachin, apparently unobserved, played much better and was accepted at Achrekar's academy.
+
+Achrekar was impressed with Tendulkar's talent and advised him to shift his schooling to Sharadashram Vidyamandir (English) High School, a school at Dadar which had a dominant cricket team and had produced many notable cricketers. Prior to this, Tendulkar had attended the Indian Education Society's New English School in Bandra (East). He was also coached under the guidance of Achrekar at Shivaji Park in the mornings and evenings. Tendulkar would practice for hours on end in the nets. If he became exhausted, Achrekar would put a one-rupee coin on the top of the stumps, and the bowler who dismissed Tendulkar would get the coin. If Tendulkar passed the whole session without getting dismissed, the coach would give him the coin. Tendulkar now considers the 13 coins he won then as some of his most prized possessions. He moved in with his aunt and uncle, who lived near Shivaji Park, during this period, due to his hectic schedule.
+
+
+
+
+
+
+
+
+
 
 \end{document}
